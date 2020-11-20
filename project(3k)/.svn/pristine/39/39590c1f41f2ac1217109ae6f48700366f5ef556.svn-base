@@ -1,0 +1,21 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Myproduct extends Model
+{
+    protected $fillable = [
+        'name',
+        'nowPrice',
+        'prevPrice',
+        'status',
+        'image',
+        'description',
+        'visitedCount',
+        'collectionName',
+        'productType',
+        'addInfo',
+    ]; 
+}

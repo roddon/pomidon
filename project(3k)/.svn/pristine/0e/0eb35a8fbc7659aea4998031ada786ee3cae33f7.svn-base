@@ -1,0 +1,529 @@
+@extends('adminPanel.layout')
+   
+@section('content')
+<div id="middle" class="flex-fill">
+    <div class="page-title bg-transparent b-0">
+
+        <h1 class="h4 mt-4 mb-0 px-3 font-weight-normal">
+            Dashboard
+        </h1>
+        
+    </div>
+    <!-- Primary -->
+    <section class="rounded mb-3">
+
+
+        <!-- section header -->
+        <div class="bg-light rounded clearfix p-3 mb-4">
+            <!-- year select-->
+            <div class="form-group">
+                <label for="sel1">Select year:</label>
+                <select class="form-control" id="sel1">
+                    <option>2019</option>
+                    <option>2020</option>
+                </select>
+            </div>
+            <!--/year select-->
+            <!-- save image -->
+            <a href="#" data-chartjs-id="visitsvsorders" data-file-name="visitsvsorders" class="btn btn-sm btn-light rounded-circle chartjs-save float-end m-0" title="Save Chart" aria-label="Save Chart">
+                <i class="fi fi-arrow-download m-0"></i>
+            </a>
+            <!-- /save image -->
+
+            Visits &amp; Orders
+            <small class="fs--11 text-muted d-block mt-1">MONTHLY REVENUE OF 2019</small>
+
+        </div>
+        <!-- /section header -->
+
+
+        <div class="row gutters-sm">
+
+            <!-- MAIN GRAPH -->
+            <div class="col-12 col-lg-12 col-xl-12 mb-5">
+
+                <div class="position-relative min-h-250 max-h-300-xs h-100">
+                    <canvas id="visitsvsorders" class="mb-5 chartjs" 
+                        data-chartjs-dots="false" 
+                        data-chartjs-legend="top" 
+                        data-chartjs-grid="true" 
+                        data-chartjs-tooltip="true" 
+
+                        data-chartjs-title="Visits &amp; Orders" 
+                        data-chartjs-xaxes-label="" 
+                        data-chartjs-yaxes-label="" 
+                        data-chartjs-line-width="5" 
+
+                        data-chartjs-type="line" 
+                        data-chartjs-labels='["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]' 
+                        data-chartjs-datasets='[{															
+                            "label": 				"Visits",
+                            "data": 				[20, 22, 24, 21, 23, 26, 24, 23, 21, 24, 23, 22],
+                            "fill": 				true,
+                            "backgroundColor": 			"rgba(163, 167, 255, 0.5)"
+                        },{
+                            "label": 				"Orders",
+                            "data": 				[14, 16, 16, 14, 13, 12, 14, 14, 13, 14, 12, 10],
+                            "fill": 				true,
+                            "backgroundColor": 		"rgba(163, 167, 255, 0.9)"
+                        }]'></canvas>
+
+                </div>
+
+            </div>
+            <!-- /MAIN GRAPH -->
+
+        </div>
+
+    </section>
+    <!-- /Primary -->
+
+
+    <!-- WIDGETS -->
+    <section class="rounded mb-3">
+        <div class="row gutters-sm">
+
+            <div class="col-12 col-md-4 col-xl-4 mb-3">
+
+                <!-- small graph widget -->
+                <div class="bg-white shadow-md text-dark p-5 rounded text-center">
+
+                    <span class="badge badge-light fs--45 w--100 h--100 badge-pill rounded-circle">
+                        <i class="fi fi-user-plus mt-1"></i>
+                    </span>
+
+                    <h3 class="fs--20 mt-5">
+                        New Customers
+                    </h3>
+
+                    <p>
+                        Last 30 days
+                    </p>
+
+                    <div class="position-relative max-h-200">
+                        <canvas class="chartjs" 
+                            data-chartjs-dots="false" 
+                            data-chartjs-legend="false" 
+                            data-chartjs-grid="false" 
+                            data-chartjs-tooltip="true" 
+
+                            data-chartjs-line-width="3" 
+                            data-chartjs-type="line" 
+
+                            data-chartjs-labels='["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]' 
+                            data-chartjs-datasets='[{                                                           
+                                "label":                    "Customers",
+                                "data":                     [11, 11, 17, 11, 15, 12, 13, 12, 11, 12, 7, 8],
+                                "fill":                     false,
+                                "backgroundColor":          "rgba(255, 159, 64, 1)"
+                            }]'
+                        ></canvas>
+                    </div>
+
+                </div>
+                <!-- /small graph widget -->
+
+            </div>
+
+
+
+            <div class="col-12 col-md-4 col-xl-4 mb-3">
+
+                <!-- small graph widget -->
+                <div class="bg-white shadow-md text-dark p-5 rounded text-center">
+
+                    <span class="badge badge-light fs--45 w--100 h--100 badge-pill rounded-circle">
+                        <i class="fi fi-cart-1 mt-1"></i>
+                    </span>
+
+                    <h3 class="fs--20 mt-5">
+                        Monthly Orders
+                    </h3>
+
+                    <p>
+                        Last 30 days
+                    </p>
+
+                    <div class="position-relative max-h-200">
+                        <canvas class="chartjs" 
+                            data-chartjs-dots="false" 
+                            data-chartjs-legend="false" 
+                            data-chartjs-grid="false" 
+                            data-chartjs-tooltip="true" 
+
+                            data-chartjs-line-width="3" 
+                            data-chartjs-type="line" 
+
+                            data-chartjs-labels='["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]' 
+                            data-chartjs-datasets='[{                                                           
+                                "label":                    "Orders",
+                                "data":                     [11, 11, 17, 11, 15, 12, 13, 16, 11, 18, 20, 21],
+                                "fill":                     false,
+                                "backgroundColor":          "rgba(54, 162, 235, 1)"
+                            }]'
+                        ></canvas>
+                    </div>
+
+                </div>
+                <!-- /small graph widget -->
+                
+            </div>
+
+
+
+
+            <div class="col-12 col-md-4 col-xl-4 mb-3">
+
+
+                    <!-- reveal on hover container -->
+                    <div class="position-relative animate-reveal-up-item">
+
+                        <!-- card rating -->
+                        <div class="position-relative reveal-item bg-white shadow-lg rounded-xl p-5 p-md-3 py-xl-5 p-4-xs z-index-2">
+                            
+                            <h6 class="text-muted text-center font-weight-normal">
+                                MONTHLY REVENUE
+                            </h6>
+
+                            <div class="text-center mt-5">
+
+                                <!-- chart -->
+                                <div class="h--120 easypie d-inline-block position-relative z-index-1" 
+                                    data-bar-color="#6dbb30" 
+                                    data-track-color="#eaeaea" 
+                                    data-scale-color="#cccccc" 
+                                    data-scale-length="0" 
+                                    data-line-width="10" 
+                                    data-line-cap="round" 
+                                    
+                                    data-size="120" 
+                                    data-percent="61">
+
+                                    <div class="absolute-full d-middle pt-0 pb-2">
+                                        <div class="flex-none text-center">
+                                            <span class="d-block">61%</span>
+                                            <small class="d-block text-gray-500">Conversion</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /chart -->
+
+
+                                <p class="text-gray-500 fs--15 mt-4 mb-2">Sales this month</p>
+                                <p class="lead font-weight-normal mb-0 text-success">
+                                $<span data-toggle="count" data-count-to="2144.55" data-count-duration="2500">0</span>
+                                </p>
+
+                                <!-- 2 cols -->
+                                <div class="d-flex mt-4 fs--15">
+                                    <div class="flex-fill"><!-- col 1 -->
+                                        <p class="text-gray-500 m-0">last month</p>
+                                        <p class="text-gray-600 m-0 font-weight-medium">$12978.51</p>
+                                    </div>
+                                    
+                                    <div class="flex-fill"><!-- col 2 -->
+                                        <p class="text-gray-500 m-0">last 3 months</p>
+                                        <p class="text-gray-600 m-0 font-weight-medium">$4122.11</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- /card rating -->
+
+                        <!-- link under -->
+                        <div class="fs--16 position-absolute left-0 right-0 bottom-0 z-index-1 pt-3 px-2">
+
+                            <div class="clearfix bg-light p-1 row-pill">
+                                <a href="#!" class="btn btn-pill btn-sm btn-success py-1 mb-0 float-start transition-hover-end" title="Detailed Revenue" aria-label="Detailed Revenue">View</a>
+                                <span class="d-block pt-1 pl-2 pr-2 text-muted text-truncate">
+                                    view detailed revenue
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- /reveal on hover container -->
+
+
+                
+            </div>
+
+
+        </div>
+    </section>
+    <!-- /WIDGETS -->
+
+
+    <!-- WIDGETS -->
+    <section class="rounded mb-3">
+        <div class="row gutters-sm">
+            <div class="portlet-header border-bottom">
+                <span>Pending orders</span>
+            </div>
+
+            <div class="portlet-body">
+                <div class="container py-6">
+
+                    <form class="bs-validate" novalidate="" id="form_id" method="post" action="#">
+                        <input type="hidden" id="action" name="action" value=""><!-- value populated by js -->
+                        <div class="table-responsive">
+                            <table class="table table-framed">
+                                <thead>
+                                    <tr>
+                                        <th class="text-gray-500 w--50">
+                                            <label class="form-checkbox form-checkbox-primary float-start">
+                                                <input class="checkall" data-checkall-container="#item_list" type="checkbox" name="checkbox">
+                                                <i></i>
+                                            </label>
+                                        </th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--120">ORDER ID</th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 min-w-300">CUSTOMER</th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--200">TOTAL PRICE</th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--120 text-center">Date</th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--100 text-center">STATUS</th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--60 text-align-end">&nbsp;</th>
+                                    </tr>
+                                </thead>
+
+                                <!-- #item_list used by checkall: data-checkall-container="#item_list" -->
+                                <tbody id="item_list">
+                                    
+                                    <!-- product -->
+                                    <tr>
+                                        <!-- check item -->
+                                        <th>
+                                            <label class="form-checkbox form-checkbox-primary float-start">
+                                                <input type="checkbox" name="item_id[]" value="1">
+                                                <i></i>
+                                            </label>
+                                        </th>
+
+                                        <!-- image -->
+                                        <td>
+                                        </td>
+
+                                        <!-- product name -->
+                                        <td>
+                                            <a href="#">
+                                                Nike Air Max Thea Glitter
+                                            </a>
+                                            <span class="d-block text-muted fs--13">SKU-123456</span>
+
+                                            <span class="d-block text-muted fs--13 mt--10">Sales: 233, Visits: 987, Reviews: 5</span>
+                                            <span class="d-block text-gray-500 fs--13">Last Edit:  Sep 26 2019 / 11:51am</span>
+
+                                        </td>
+
+                                        <!-- price -->
+                                        <td>
+
+                                            <span class="d-block text-danger fs--15">
+                                                <sup>*</sup>Price: 10.00 
+                                                <sup class="text-muted fs--10">USD</sup>
+                                            </span>
+
+                                            <span class="d-block text-success fs--15">
+                                                Promo:  9.99 
+                                                <sup class="text-muted fs--10">USD</sup>
+                                            </span>
+
+                                            <span class="d-block fs--13 mt--10 text-muted">
+                                                <sup>**</sup> Inventory: 210
+                                            </span>
+
+                                            <span class="d-block text-muted fs--13">
+                                                Variants: 6
+                                            </span>
+
+                                        </td>
+
+                                        <!-- brand -->
+                                        <td class="text-muted text-center">
+                                            Nike
+                                        </td>
+
+                                        <!-- status -->
+                                        <td class="text-center">
+                                            <a href="#" class="text-success btn btn-sm p-0">
+                                                PENDING
+                                            </a>
+                                        </td>
+
+                                        <!-- options -->
+                                        <td class="text-align-end">
+
+                                            <div class="clearfix"><!-- using .dropdown, autowidth not working -->
+
+                                                <a href="#" class="btn btn-sm btn-light rounded-circle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                                    <span class="group-icon">
+                                                        <i class="fi fi-dots-vertical-full"></i>
+                                                        <i class="fi fi-close"></i>
+                                                    </span>
+                                                </a>
+
+                                                <div class="dropdown-menu dropdown-menu-clean dropdown-click-ignore max-w-220">
+                                                    
+                                                    <div class="scrollable-vertical max-h-50vh">
+
+                                                        <a class="dropdown-item text-truncate" href="#">
+                                                            <i class="fi fi-pencil"></i>
+                                                            Edit
+                                                        </a>
+                                                        <a 	href="#" 
+                                                            class="dropdown-item text-truncate js-ajax-confirm" 
+                                                            data-href="components-tables.html">
+                                                            <i class="fi fi-check"></i>
+                                                            Set : COMPLETE
+                                                        </a>
+                                                        <a 	href="#" 
+                                                            class="dropdown-item text-truncate js-ajax-confirm" 
+                                                            data-href="components-tables.html">
+                                                            <i class="fi fi-close"></i>
+                                                            Set : REJECTED
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </td>
+
+                                    </tr>
+                                    <!-- /product -->
+
+
+                                    <!-- product -->
+                                    <tr>
+
+                                        <!-- check item -->
+                                        <th>
+                                            <label class="form-checkbox form-checkbox-primary float-start">
+                                                <input type="checkbox" name="item_id[]" value="2">
+                                                <i></i>
+                                            </label>
+                                        </th>
+
+                                        <!-- image -->
+                                        <td>
+                                            <img src="../../html_frontend/demo.files/images/unsplash/brooke-cagle-g1Kr4Ozfoac-unsplash-100px.jpg" class="img-fluid" alt="...">
+                                        </td>
+
+                                        <!-- product name -->
+                                        <td>
+                                            <a href="#">
+                                                Adidas - running faster than you can
+                                            </a>
+                                            <span class="d-block text-muted fs--13">SKU-123456</span>
+
+                                            <span class="d-block text-muted fs--13 mt--10">Sales: 233, Visits: 987, Reviews: 5</span>
+                                            <span class="d-block text-gray-500 fs--13">Last Edit:  Sep 26 2019 / 11:51am</span>
+
+                                        </td>
+
+                                        <!-- price -->
+                                        <td>
+
+                                            <span class="d-block text-danger fs--15">
+                                                Price: 59.00 
+                                                <sup class="text-muted fs--10">USD</sup>
+                                            </span>
+
+                                            <span class="d-block fs--13 mt--10 text-muted">
+                                                Inventory: 19
+                                            </span>
+
+                                        </td>
+
+                                        <!-- brand -->
+                                        <td class="text-muted text-center">
+                                            Adidas
+                                        </td>
+
+                                        <!-- status -->
+                                        <td class="text-center">
+                                            <a href="#" class="text-success btn btn-sm p-0">
+                                                PENDING
+                                            </a>
+                                        </td>
+
+                                        <!-- options -->
+                                        <td class="text-align-end">
+
+                                            <div class="clearfix"><!-- using .dropdown, autowidth not working -->
+
+                                                <a href="#" class="btn btn-sm btn-light rounded-circle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                                    <span class="group-icon">
+                                                        <i class="fi fi-dots-vertical-full"></i>
+                                                        <i class="fi fi-close"></i>
+                                                    </span>
+                                                </a>
+
+                                                <div class="dropdown-menu dropdown-menu-clean dropdown-click-ignore max-w-220">
+                                                    
+                                                    <div class="scrollable-vertical max-h-50vh">
+
+                                                        <a class="dropdown-item text-truncate" href="#">
+                                                            <i class="fi fi-pencil"></i>
+                                                            Edit
+                                                        </a>
+                                                        <a 	href="#" 
+                                                            class="dropdown-item text-truncate js-ajax-confirm" 
+                                                            data-href="components-tables.html">
+                                                            <i class="fi fi-check"></i>
+                                                            Set : COMPLETE
+                                                        </a>
+                                                        <a 	href="#" 
+                                                            class="dropdown-item text-truncate js-ajax-confirm" 
+                                                            data-href="components-tables.html">
+                                                            <i class="fi fi-close"></i>
+                                                            Set : REJECTED
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </td>
+
+                                    </tr>
+                                    <!-- /product -->
+
+                                </tbody>
+
+                                <tfoot>
+                                    <tr>
+                                        <th class="text-gray-500 w--50">
+                                            <label class="form-checkbox form-checkbox-primary float-start">
+                                                <input class="checkall" data-checkall-container="#item_list" type="checkbox" name="checkbox">
+                                                <i></i>
+                                            </label>
+                                        </th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--120">ORDER ID</th>
+                                        <th class="text-gray-500 font-weight-normal fs--14">CUSTOMER </th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--200">TOTAL PRICE</th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--120 text-center">DATE</th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--100 text-center">STATUS</th>
+                                        <th class="text-gray-500 font-weight-normal fs--14 w--60 text-align-end">&nbsp;</th>
+                                    </tr>
+                                </tfoot>
+
+                            </table>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- /WIDGETS -->
+
+</div>
+@endsection

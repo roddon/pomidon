@@ -1,0 +1,314 @@
+@extends('adminPanel.layout')
+   
+@section('content')
+
+<div id="middle" class="flex-fill">
+    <div class="page-title bg-transparent b-0">
+
+        <h1 class="h4 mt-4 mb-0 px-3 font-weight-normal">
+            Add Products
+        </h1>
+        
+    </div>
+    <section class="rounded mb-3">
+
+        <!-- start:portlet -->
+        <div class="portlet">
+            <form>
+                <div class="portlet-header border-bottom d-flex justify-content-between">
+                    <span>Add Information</span>
+                    <span><button class= "btn btn-primary" type= "submit"><i class= "fi fi-check"></i></button> <a href= "{{URL::route('product.index')}}"><div class= "btn btn-danger"><i class= "fi fi-close "></i></div></a></span>
+                </div>
+
+                <div class="portlet-body">
+                    <div class="container py-3">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="general-tab" data-toggle="tab" href="#general" role="tab" aria-controls="general" aria-selected="true">
+                                    General
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" id="link-tab" data-toggle="tab" href="#link" role="tab" aria-controls="link" aria-selected="false">
+                                    Link
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" id="option-tab" data-toggle="tab" href="#option" role="tab" aria-controls="option" aria-selected="false">
+                                    Option
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" id="image-tab" data-toggle="tab" href="#image" role="tab" aria-controls="image" aria-selected="false">
+                                    Image
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" id="myTabContent">
+                        
+                            <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                                <div class="p--15 container py-6">
+                                    
+                                    <div class="form-label-group mb-3">
+                                        <input placeholder="Name" id="name" type="text" name= "name" value="" class="form-control">
+                                        <label for="name">Name</label>
+                                    </div>
+
+                                    <div class="form-label-group mb-3">
+                                        <input placeholder="Now Price(USD)" id="nowPrice" name= "nowPrice" type="number" value="" class="form-control">
+                                        <label for="nowPrice">Now Price(USD): 99.9</label>
+                                    </div>
+
+                                    <div class="form-label-group mb-3">
+                                        <input placeholder="Previous Price(USD): 119.99" id="prevPrice" name= "prevPrice" type="number" value="" class="form-control">
+                                        <label for="prevPrice">Previous Price(USD): 119.99</label>
+                                    </div>
+
+                                    <div class="form-label-group mb-3">
+                                        <select id="status" name= "status" class="form-control">
+                                            <option value= true>Enable</option>
+                                            <option value= false>Disable</option>
+                                        </select>
+                                        <label for="status">Status</label>
+                                    </div>
+
+                                    <div class="form-label-group mb-3">
+                                        <textarea name= "description" class="form-control summernote-editor"
+                                            data-placeholder="Type product description here..." 
+                                            data-min-height="300" 
+                                            data-max-height="1000" 
+                                            data-focus="false" 
+                                            data-lang="en-US" 
+                                            data-toolbar='[
+                                                ["style", ["style"]],
+                                                ["font", ["bold", "italic", "underline", "clear"]],
+                                                ["fontname", ["fontname"]],
+                                                ["color", ["color"]],
+                                                ["para", ["ul", "ol", "paragraph"]],
+                                                ["height", ["height"]],
+                                                ["table", ["table"]],
+                                                ["insert", ["link", "picture", "hr"]],
+                                                ["view", ["fullscreen", "codeview"]],
+                                                ["help", ["help"]]
+                                                ]'
+                                        ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="link" role="tabpanel" aria-labelledby="link-tab">
+                                <div class="p--15 container py-6">
+                                    <p>Please insert your product type as same as example.</p>
+                                    <div class="form-label-group mb-3">
+                                        <input placeholder="Example: H11" id="type" name= "type" type="text" value="" class="form-control">
+                                        <label for="type">Example: H11</label>
+                                    </div>
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <p>Please select one of collections if your products belong to.</p>
+                                    <div class="form-label-group mb-3">
+                                        <select id="collection" name= "collection" class="form-control">
+                                            <option value= "No">No</option>
+                                            <option value= "HID Conversion Kits">HID Conversion Kits</option>
+                                            <option value= "Relay">Relay</option>
+                                        </select>
+                                        <label for="collection">Collection</label>
+                                    </div>
+                                </div> 
+                            </div>
+                            
+                            <div class="tab-pane fade" id="option" role="tabpanel" aria-labelledby="option-tab">
+                                <div class="p--15 container py-6">
+                                    <p>Is this product sorted by bulb temperature or color?</p>
+                                    <div class="form-advanced-list p-4 shadow-xs border rounded mb-5">
+
+                                        <label class="form-radio form-radio-primary d-block py-3 border-bottom">
+                                            <input type="radio" value= "no" name="temperatureOrColor" class="form-advanced-list-reveal" min= 0 minLength= 0 data-form-advanced-target="#option1_expand">
+                                            <i></i> No
+                                        </label>
+
+                                        <div id="option1_expand" class="form-advanced-list-reveal-item hide bg-gradient-light p-4 rounded mt--n10 border bt-0">
+                                            
+                                            <p>Please insert this product's total quantity if it doesn't depend on bulb temperature or color.</p>
+                                            <div class="form-label-group mb-3">
+                                                <input placeholder="Total Quantity" id="totalQuantity" type="number" name= "totalQuantity" class="form-control">
+                                                <label for="totalQuantity">Total Quantity of this product</label>
+                                            </div>
+
+                                        </div>
+
+                                        <label class="form-radio form-radio-primary d-block py-3 border-bottom">
+                                            <input type="radio" value= "temperature" name="temperatureOrColor" class="form-advanced-list-reveal" data-form-advanced-target="#option3_expand">
+                                            <i></i> Bulb Temperature
+                                        </label>
+
+                                        <!-- Expand -->
+                                        <div id="option3_expand" class="form-advanced-list-reveal-item hide bg-gradient-light p-4 rounded mt--n10 border bt-0">
+                                            
+                                            <p>Now insert product's quantity depending on bulb temperature. </p>
+                                            <div class="form-label-group mb-3">
+                                                <input placeholder="4300K-Pure white" id="4300K" type="number" name= "4300K" class="form-control">
+                                                <label for="4300K">Quantity of <i>4300K-Pure White</i></label>
+                                            </div>
+                                            <div class="form-label-group mb-3">
+                                                <input placeholder="6000K-Bright White(Brightest Option)" id="6000K" type="number" name= "6000K" class="form-control">
+                                                <label for="6000K">Quantity of <i>6000K-Bright White(Brightest Option)</i></label>
+                                            </div>
+                                            <div class="form-label-group mb-3">
+                                                <input placeholder="8000K-Ice Blue" id="8000K" type="number" name= "8000K" class="form-control">
+                                                <label for="8000K">Quantity of <i>8000K-Ice Blue</i></label>
+                                            </div>
+                                            <div class="form-label-group mb-3">
+                                                <input placeholder="10000K-Deep Blue" id="10000K" type="number" name= "10000K" class="form-control">
+                                                <label for="10000K">Quantity of <i>10000K-Deep Blue</i></label>
+                                            </div>
+                                        </div>
+                                        <!-- /Expand -->
+                                        <label class="form-radio form-radio-primary d-block py-3 border-bottom">
+                                            <input type="radio" value= "color" name="temperatureOrColor" class="form-advanced-list-reveal" data-form-advanced-target="#option2_expand">
+                                            <i></i> Bulb Color
+                                        </label>
+
+                                        <!-- Expand -->
+                                        <div id="option2_expand" class="form-advanced-list-reveal-item hide bg-gradient-light p-4 rounded mt--n10 border bt-0">
+                                            
+                                            <p>Now insert product's quantity depending on bulb color. </p>
+                                            <div class="form-label-group mb-3">
+                                                <input placeholder="White" id="white" type="number" name= "white" class="form-control">
+                                                <label for="white">Quantity of <i>White</i></label>
+                                            </div>
+                                            <div class="form-label-group mb-3">
+                                                <input placeholder="Blue" id="blue" type="number" name= "blue" class="form-control">
+                                                <label for="blue">Quantity of <i>Blue</i></label>
+                                            </div>
+                                            <div class="form-label-group mb-3">
+                                                <input placeholder="Perum" id="perum" type="number" name= "perum" class="form-control">
+                                                <label for="perum">Quantity of <i>Perum</i></label>
+                                            </div>
+                                            <div class="form-label-group mb-3">
+                                                <input placeholder="Deep" id="deep" type="number" name= "deep" class="form-control">
+                                                <label for="deep">Quantity of <i>Deep</i></label>
+                                            </div>
+                                        </div>
+                                        <!-- /Expand -->
+
+                                    </div>
+                                    <p>Select additional services if need</p>
+                                    <div class="form-advanced-list p-4 shadow-xs border rounded mb-5">
+                                        <label class="form-checkbox form-checkbox-primary d-block">
+                                            <input class="checkall" data-checkall-container="#sevice_list" type="checkbox" name="checkbox">
+                                            <i></i> Check All
+                                        </label>
+
+                                        <hr>
+
+                                        <div id="sevice_list">
+
+                                            <label class="form-checkbox form-checkbox-primary d-block">
+                                                <input type="checkbox" name="item_id[]" value="1">
+                                                <i></i> Check this item if this product needs Ballast.
+                                            </label>
+
+                                            <label class="form-checkbox form-checkbox-primary d-block">
+                                                <input type="checkbox" name="item_id[]" value="2">
+                                                <i></i> Check this item if this product needs Relay/Anti Filker harness.
+                                            </label>
+
+                                            <label class="form-checkbox form-checkbox-primary d-block">
+                                                <input type="checkbox" name="item_id[]" value="3">
+                                                <i></i> Check this item if this product needs Warning Canceller.
+                                            </label>
+
+                                            <label class="form-checkbox form-checkbox-primary d-block">
+                                                <input type="checkbox" name="item_id[]" value="3">
+                                                <i></i> Check this item if this product needs Decoder.
+                                            </label>
+
+                                            <label class="form-checkbox form-checkbox-primary d-block">
+                                                <input type="checkbox" name="item_id[]" value="3">
+                                                <i></i> Check this item to add warranty period rule.
+                                            </label>
+
+                                        </div>
+
+                                        <hr>
+
+                                        <label class="form-checkbox form-checkbox-primary d-block">
+                                            <input class="checkall" data-checkall-container="#sevice_list" type="checkbox" name="checkbox">
+                                            <i></i> Check All
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="image" role="tabpanel" aria-labelledby="image-tab">
+                                <div class="p--15 container py-6">
+                                    <p>Select images for your product</p>
+                                    <div class="mb-1">
+
+                                        <label class="btn btn-primary cursor-pointer position-relative">
+
+                                            <input 	name="file_list_name[]" 
+                                                    multiple=""
+                                                    type="file" 
+
+                                                    data-file-ext="mp3, jpg, svg, png, gif" 
+                                                    data-file-max-size-kb-per-file=""
+                                                    data-file-max-size-kb-total="0" 
+                                                    data-file-max-total-files="100"
+                                                    data-file-ext-err-msg="Allowed:" 
+                                                    data-file-exist-err-msg="File already exists:"
+                                                    data-file-size-err-item-msg="File too large!"
+                                                    data-file-size-err-total-msg="Total allowed size exceeded!"
+                                                    data-file-size-err-max-msg="Maximum allowed files:"
+                                                    data-file-toast-position="bottom-center"
+                                                    data-file-preview-container=".js-file-input-container-multiple-list-static" 
+                                                    data-file-preview-img-height="80" 
+                                                    data-file-btn-clear="a.js-file-input-btn-multiple-list-static-remove"
+                                                    data-file-preview-show-info="true" 
+                                                    data-file-preview-list-type="list" 
+
+                                                    class="custom-file-input absolute-full">
+
+                                                <span class="group-icon">
+                                                    <i class="fi fi-arrow-upload"></i>
+                                                    <i class="fi fi-circle-spin fi-spin"></i>
+                                                </span> 
+
+                                                <span>Select Files</span>
+                                                
+
+                                        </label>
+
+
+                                        <div class="js-file-input-container-multiple-list-static position-relative hide-empty mt-4"><!-- container --></div>
+
+
+                                        <!-- remove button -->
+                                        <div class="mt-3">
+                                            <a href="#" title="Clear Images" data-toggle="tooltip" class="js-file-input-btn-multiple-list-static-remove hide btn btn-secondary mb-2">
+                                                <i class="fi fi-close"></i>
+                                                Clear files
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- end:portlet -->
+
+    </section>
+</div>
+@endsection

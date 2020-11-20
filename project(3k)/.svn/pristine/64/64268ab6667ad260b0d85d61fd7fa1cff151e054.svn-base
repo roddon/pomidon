@@ -1,0 +1,181 @@
+@extends('adminPanel.layout')
+   
+@section('content')
+
+<div id="middle" class="flex-fill">
+    <div class="page-title bg-transparent b-0">
+
+        <h1 class="h4 mt-4 mb-0 px-3 font-weight-normal">
+            Update Car Type
+        </h1>
+        
+    </div>
+    <section class="rounded mb-3">
+
+        <!-- start:portlet -->
+        <div class="portlet">
+            <form>
+                <div class="portlet-header border-bottom d-flex justify-content-between">
+                    <span>Update Information</span>
+                    <span><button class= "btn btn-primary" type= "submit"><i class= "fi fi-check"></i></button> <a href= "{{URL::route('car.index')}}"><div class= "btn btn-danger"><i class= "fi fi-close "></i></div></a></span>
+                </div>
+
+                <div class="portlet-body">
+                    <div class="container py-3">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="general-tab" data-toggle="tab" href="#general" role="tab" aria-controls="general" aria-selected="true">
+                                    General
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" id="hole-tab" data-toggle="tab" href="#hole" role="tab" aria-controls="hole" aria-selected="false">
+                                    Bulb holes
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" id="myTabContent">
+                        
+                            <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                                <div class="p--15 container py-6">
+                                    
+                                    <p> Please insert the production year.</p>
+                                    <div class="form-label-group mb-3">
+                                        <input placeholder="Year:" id="year" type="number" name= "year" value="" class="form-control">
+                                        <label for="name">Year:</label>
+                                    </div>
+
+                                    <p> Please insert the manufacture company.</p>
+                                    <div class="form-label-group mb-3">
+                                        <input placeholder="Make:" id="make" name= "make" type="text" value="" class="form-control">
+                                        <label for="make">Make:</label>
+                                    </div>
+
+                                    <p> Please insert the model name.</p>
+                                    <div class="form-label-group mb-3">
+                                        <input placeholder="Model" id="model" name= "model" type="text" value="" class="form-control">
+                                        <label for="model">Model:</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="hole" role="tabpanel" aria-labelledby="hole-tab">
+                                <div class="p--15 container py-6">
+                                    <ul class="nav nav-tabs" id="bulbHoles" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="front-tab" data-toggle="tab" href="#front" role="tab" aria-controls="front" aria-selected="true">
+                                                Front
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="interior-tab" data-toggle="tab" href="#interior" role="tab" aria-controls="interior" aria-selected="false">
+                                                Interior
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="exterior-tab" data-toggle="tab" href="#exterior" role="tab" aria-controls="exterior" aria-selected="false">
+                                                Exterior
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="tab-content" id="holeTabContent">
+                                    
+                                        <div class="tab-pane fade show active" id="front" role="tabpanel" aria-labelledby="front-tab">
+                                            <div class="p--15 container py-6">
+                                                
+                                                <p> Please insert the hole name and related product type.</p>
+                                                <div id= "frontPiece" class= "row">
+                                                    <div class="form-label-group mb-3 col-12 col-lg-5 col-md-5">
+                                                        <input placeholder="Hole Name:" type="number" name= "frontHole" value="" class="form-control">
+                                                        <label for="name" class= "ml-3">Hole Name:</label>
+                                                    </div>
+
+                                                    <div class="form-label-group mb-3 col-12 col-lg-5 col-md-5">
+                                                        <input placeholder="Product Type:" name= "frontType" type="text" value="" class="form-control">
+                                                        <label for="frontType" class= "ml-3">Product Type:</label>
+                                                    </div>
+                                                    
+                                                    <div class= "frontPiecePlus col-12 col-lg-2 col-md-2 mt-2"><i class= "fi fi-plus"></i></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade show" id="interior" role="tabpanel" aria-labelledby="interior-tab">
+                                            <div class="p--15 container py-6">
+                                                
+                                                <p> Please insert the hole name and related product type.</p>
+                                                <div id= "interiorPiece" class= "row">
+                                                    <div class="form-label-group mb-3 col-12 col-lg-5 col-md-5">
+                                                        <input placeholder="Hole Name:" type="number" name= "interiorHole" value="" class="form-control">
+                                                        <label for="name">Hole Name:</label>
+                                                    </div>
+
+                                                    <div class="form-label-group mb-3 col-12 col-lg-5 col-md-5">
+                                                        <input placeholder="Product Type:" name= "interiorType" type="text" value="" class="form-control">
+                                                        <label for="frontType">Product Type:</label>
+                                                    </div>
+                                                    <div class= "col-12 col-lg-2 col-md-2"></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade show" id="exterior " role="tabpanel" aria-labelledby="exterior -tab">
+                                            <div class="p--15 container py-6">
+                                                
+                                                <p> Please insert the hole name and related product type.</p>
+                                                <div id= "exteriorPiece" class= "row">
+                                                    <div class="form-label-group mb-3 col-12 col-lg-5 col-md-5">
+                                                        <input placeholder="Hole Name:" type="number" name= "exterior Hole" value="" class="form-control">
+                                                        <label for="name">Hole Name:</label>
+                                                    </div>
+
+                                                    <div class="form-label-group mb-3 col-12 col-lg-5 col-md-5">
+                                                        <input placeholder="Product Type:" name= "exterior Type" type="text" value="" class="form-control">
+                                                        <label for="frontType">Product Type:</label>
+                                                    </div>
+                                                    <div col-12 col-lg-2 col-md-2><i class= "fi fi-plus"></i></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+
+                                </div> 
+                            </div>
+                        
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- end:portlet -->
+
+    </section>
+</div>
+@endsection
+
+@section('script')
+
+<script>
+    $(document).ready(function(){
+        $(".frontPiecePlus").on("click", function(){ 
+            $(this).parent().append("<div class='form-label-group mb-3 col-12 col-lg-5 col-md-5'><input placeholder='Hole Name:' type='number' name= 'frontHole' value='' class='form-control'><label for='name' class= 'ml-3'>Hole Name:</label></div><div class='form-label-group mb-3 col-12 col-lg-5 col-md-5'><input placeholder='Product Type:' name= 'frontType' type='text' value='' class='form-control'><label for='frontType' class= 'ml-3'>Product Type:</label></div>"+ "<div"+" class= 'frontPiecePlus col-12 col-lg-2 col-md-2 mt-2'><i class= 'fi fi-plus'></i></div>");
+            $(this).html("<i class= 'fi fi-minus'></i>");
+            $(this).removeClass("frontPiecePlus");
+            $(this).addClass("frontPieceMinus");
+        });
+        $(".frontPieceMinus").on("click", function(){ 
+            $(this).hide();
+        });
+    });
+</script>
+@endsection

@@ -1,0 +1,1011 @@
+@extends('layout.layout')
+
+@section('content')
+    <!-- start image section tag -->
+    <div id="shopify-section-1489125525070" class="shopify-section image-with-text-overlay-section under-menu">
+        <style data-shopify="">@media only screen and (max-width: 480px) {
+        #shopify-section-1489125525070 .pretext,
+        #shopify-section-1489125525070 .headline,
+        #shopify-section-1489125525070 .subtitle,
+        .block__1489125525070 .pretext,
+        .block__1489125525070 .headline,
+        .block__1489125525070 .subtitle {
+            color: ;
+        }
+        }</style>
+        <section id="banner-1489125525070" class="banner full-width--true">
+            <div class="image-element__wrap" style=" "> 
+                <img alt="driverside headlight of vehicle" 
+                    data-src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1600x.jpg?v=1578695475" 
+                    data-sizes="auto" data-srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_5000x.jpg?v=1578695475 5000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_4500x.jpg?v=1578695475 4500w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_4000x.jpg?v=1578695475 4000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_3500x.jpg?v=1578695475 3500w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_3000x.jpg?v=1578695475 3000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_2500x.jpg?v=1578695475 2500w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_2000x.jpg?v=1578695475 2000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1800x.jpg?v=1578695475 1800w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1600x.jpg?v=1578695475 1600w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1400x.jpg?v=1578695475 1400w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1200x.jpg?v=1578695475 1200w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1000x.jpg?v=1578695475 1000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_800x.jpg?v=1578695475 800w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_600x.jpg?v=1578695475 600w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_400x.jpg?v=1578695475 400w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_200x.jpg?v=1578695475 200w" 
+                    height="1080" 
+                    width="1920" 
+                    style=";" 
+                    class="transition--appear mobile-banner--crop-none lazyautosizes lazyloaded" 
+                    sizes="971px" 
+                    srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_5000x.jpg?v=1578695475 5000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_4500x.jpg?v=1578695475 4500w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_4000x.jpg?v=1578695475 4000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_3500x.jpg?v=1578695475 3500w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_3000x.jpg?v=1578695475 3000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_2500x.jpg?v=1578695475 2500w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_2000x.jpg?v=1578695475 2000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1800x.jpg?v=1578695475 1800w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1600x.jpg?v=1578695475 1600w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1400x.jpg?v=1578695475 1400w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1200x.jpg?v=1578695475 1200w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1000x.jpg?v=1578695475 1000w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_800x.jpg?v=1578695475 800w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_600x.jpg?v=1578695475 600w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_400x.jpg?v=1578695475 400w,
+                        //cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_200x.jpg?v=1578695475 200w" 
+                    src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_1600x.jpg?v=1578695475"
+                >
+            </div>
+            <noscript> 
+                <img 
+                    src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/driverside-vehicle-headlight-left_2000x.jpg?v=1578695475" 
+                    alt="driverside headlight of vehicle" 
+                    class="mobile-banner--crop-none"
+                >
+            </noscript>
+            <div class="position-center caption js-caption mobile-text-below--true"> 
+                <div class="caption-content caption-background-false caption-transparency-false align-center"> 
+                    <!-- TOP DROPDOWN SEARCH --> 
+                    <div class="heading-subheading-sss"> 
+                        <div class="head-nav-title">SELECT YOUR VEHICLE</div> 
+                        <div class="head-nav-subtitle">One stop shop for your automotive and motorcycle HID &amp; LED LIGHTS</div>
+                    </div> 
+                    <div class="search-container" style="">
+                        <div class="top_select_filter"> 
+                            <span class="select-vehicle-col selectyear year-dropdown sel-year"> 
+                                <span id="default_message_overlay_year">1&nbsp;&nbsp;&nbsp;|</span> 
+                                <select id="year" class="coll-filter"> 
+                                    <option value="">Year</option>
+                                    <option value="2019">2019</option><option value="2018">2018</option>
+                                    <option value="2017">2017</option><option value="2016">2016</option>
+                                    <option value="2015">2015</option><option value="2014">2014</option>
+                                    <option value="2013">2013</option><option value="2012">2012</option>
+                                    <option value="2011">2011</option><option value="2010">2010</option>
+                                    <option value="2009">2009</option><option value="2008">2008</option>
+                                    <option value="2007">2007</option><option value="2006">2006</option>
+                                    <option value="2005">2005</option><option value="2004">2004</option>
+                                    <option value="2003">2003</option><option value="2002">2002</option>
+                                    <option value="2001">2001</option><option value="2000">2000</option>
+                                    <option value="1999">1999</option><option value="1998">1998</option>
+                                    <option value="1997">1997</option><option value="1996">1996</option>
+                                    <option value="1995">1995</option><option value="1994">1994</option>
+                                    <option value="1993">1993</option><option value="1992">1992</option>
+                                    <option value="1991">1991</option><option value="1990">1990</option>
+                                    <option value="1989">1989</option><option value="1988">1988</option>
+                                    <option value="1987">1987</option><option value="1986">1986</option>
+                                    <option value="1985">1985</option><option value="1984">1984</option>
+                                    <option value="1983">1983</option><option value="1982">1982</option>
+                                    <option value="1981">1981</option><option value="1980">1980</option>
+                                    <option value="1979">1979</option><option value="1978">1978</option>
+                                    <option value="1977">1977</option><option value="1976">1976</option>
+                                    <option value="1975">1975</option><option value="1974">1974</option>
+                                    <option value="1973">1973</option><option value="1972">1972</option>
+                                    <option value="1971">1971</option><option value="1970">1970</option>
+                                    <option value="1969">1969</option><option value="1968">1968</option>
+                                    <option value="1967">1967</option><option value="1966">1966</option>
+                                    <option value="1965">1965</option><option value="1964">1964</option>
+                                    <option value="1963">1963</option><option value="1962">1962</option>
+                                    <option value="1961">1961</option><option value="1960">1960</option>
+                                    <option value="1959">1959</option><option value="1958">1958</option>
+                                    <option value="1957">1957</option><option value="1956">1956</option>
+                                    <option value="1955">1955</option>
+                                </select> 
+                                <i class="down"></i>
+                            </span> 
+                            <span class="select-vehicle-col selectmake sel-make"> 
+                                <span id="default_message_overlay_make">2&nbsp;&nbsp;&nbsp;|</span> 
+                                <select id="make" class="coll-filter with-marker" disabled="disabled"> 
+                                    <option value="">Make</option>
+                                </select> 
+                                <i class="down"></i>
+                            </span> 
+                            <span class="select-vehicle-col selectmodel sel-model"> 
+                                <span id="default_message_overlay_model">3&nbsp;&nbsp;&nbsp;|</span> 
+                                <select id="model" class="coll-filter with-marker" disabled="disabled"> 
+                                    <option value="">Model</option>
+                                </select> 
+                                <i class="down"></i>
+                            </span> 
+                            <span class="plain-select-1 custom-find"> 
+                                <button type="button" id="findBtnSubmit" name="find" class="cutom-find-btn">GO</button>
+                            </span>
+                        </div>
+                        <style>
+                            .caption .caption-content{max-width:100%;width:100%;font-size:14px}
+                            .head-nav-title{
+                                color:#fff;font-size:25px;font-weight:700;line-height:24px;margin-bottom:10px;
+                                text-transform:uppercase;font-family:"Roboto","Arial","Helvetica",sans-serif
+                            }
+                            .head-nav-subtitle{display:none;margin-bottom:32px;font-family:"Roboto","Arial","Helvetica",sans-serif}
+                            span.selectyear, span.selectmake, span.selectmodel{position:relative}
+                            span.selectmake, span.selectmodel{margin-left:8px}
+                            .select-vehicle-col, .select-vehicle-col-container{-webkit-box-flex:1;-webkit-flex:1;flex:1}
+                            .top_select_filter select{
+                                margin:0;width:100%;border:none;height:48px;margin-bottom:0;
+                                border-radius:4px;font-family:"Roboto","Arial","Helvetica",sans-serif;
+                                color:#474747;background:#ffffff;padding-left:40px !important
+                            }
+                            .top_select_filter select:focus{border-color:none}
+                            .cutom-find-btn{
+                                float:none;height:63px;background:#d4252a;text-decoration:none;
+                                border-radius:4px;color:#fefefe;cursor:pointer;font-family:"Roboto","Arial","Helvetica",sans-serif;
+                                min-width:40px;text-align:center;text-transform:uppercase;width:100%
+                            }
+                            .cutom-find-btn:hover, .cutom-find-btn:focus:not(.-disabled){background:#be2126;text-decoration:none}
+                            select#year{padding:0 30px 0 35px}
+                            select#year, select#make, select#model{padding:0 30px 0 0}
+                            #default_message_overlay_year{position:absolute;display:block;color:grey;padding-top:0px;padding-left:0px;z-index:999;left:12px;top:18px}
+                            #default_message_overlay_make, #default_message_overlay_model{
+                                position:absolute;display:block;color:grey;padding-top:0;padding-left:0;z-index:999;left:12px;top:18px
+                            }
+                            .select-vehicle-col{float:left;width:100%;background:#fff;margin-bottom:0;border-radius:4px;padding-left:0}
+                            .select-vehicle-col i.down{top:23px;right:5px;border:solid #474747;position:absolute;border-width:0 2px 2px 0;margin:3px 10px 0 0;padding:3px}
+                            .down{transform:rotate(45deg);-webkit-transform:rotate(45deg)}  
+                            .caption{top:50% !important}
+                            
+                            .year-dropdown i.down{
+                            /*     border: solid #fff; */
+                            /*     border-width: 0 2px 2px 0; */
+                            }
+                            .year-dropdown span{
+                            /*     color:#fff !important; */
+                            }
+                            .year-dropdown select{
+                            /*     background: #808080; */
+                            /*     color:#fff; */
+                            }
+                            .year-dropdown select option{
+                            /*     background: #808080; */
+                            /*     color:#fff; */
+                            }
+                            
+                            .make-dropdown i.down{
+                            /*     border: solid #fff; */
+                            /*     border-width: 0 2px 2px 0; */
+                            }
+                            .make-dropdown span{
+                            /*     color:#fff !important; */
+                            }
+                            .make-dropdown select{
+                            /*     background: #808080; */
+                            /*     color:#fff; */
+                            }
+                            .make-dropdown select option{
+                            /*     background: #808080; */
+                            /*     color:#fff; */
+                            }
+                            
+                            .model-dropdown i.down{
+                            /*     border: solid #fff; */
+                            /*     border-width: 0 2px 2px 0; */
+                            }
+                            .model-dropdown span{
+                            /*     color:#fff !important; */
+                            }
+                            .model-dropdown select{
+                            /*     background: #808080; */
+                            /*     color:#fff; */
+                            }
+                            .model-dropdown select option{
+                            /*     background: #808080; */
+                            /*     color:#fff; */
+                            }
+                            
+                            
+                            .search-loader {
+                                position: fixed;
+                                top:0;
+                                left:0;
+                                right:0;
+                                bottom: 0;
+                                background: rgba(0,0,0,0.7);
+                                z-index: 11111;
+                                display: none;    
+                            }
+                            .search-loader img {
+                                position: absolute;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                left: 0;
+                                right: 0;
+                                margin: 0 auto;
+                                width: 70px;
+                            }
+                            .search-loader.open {
+                                display: block;
+                            }
+                            .scrollableList {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                right:0;
+                                bottom: 0;
+                                z-index: 1;
+                            }
+                            .sel-year.active .scrollableList, .sel-make.active .scrollableList, .sel-model.active .scrollableList {
+                                box-shadow: 0px 0px 0px 2px #3761bf;
+                                border-radius: 4px 4px 0 0;
+                            }
+                            .selectedOption {
+                                position: absolute;
+                                left: 0;
+                                right: 0;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                font-weight: 400;
+                                text-align: left;
+                                padding-left: 40px;
+                            }
+                            .scrollableList ul {
+                                position: absolute;
+                                top: 100%;
+                                left: 0;
+                                right: 0;
+                                background: #fff;
+                                text-align: left;
+                                margin: -3px -2px 0;
+                                padding: 10px;
+                                height: 240px;
+                                overflow-y: auto;
+                                border: 2px solid #3761bf;
+                                border-top: none;
+                                border-radius: 0 0 4px 4px;
+                            }
+                            .scrollableList ul li {
+                                list-style: none;
+                                padding: 10px 10px;
+                                border-top: 1px solid #ddd;
+                                margin: 0;
+                                font-weight: 400;
+                            }
+                            .scrollableList ul li:hover {
+                                background: #3761bf;
+                                color: #fff;
+                            }
+                            
+                            .sel-year.active .down, .sel-make.active .down, .sel-model.active .down {
+                                transform: rotate(227deg);
+                                transition: 0.4s;
+                            }
+                            /* .sel-make {
+                                pointer-events: none;
+                            }
+                            .sel-make.make-dropdown {
+                                pointer-events: auto;
+                            }
+                            
+                            .sel-model {
+                                pointer-events: none;
+                            }
+                            .sel-model.model-dropdown {
+                                pointer-events: auto;
+                            } */
+                            
+                            
+                            @media only screen and (min-width:1025px){
+                                .full-width--true .caption{max-width:1296px;min-width:1000px;width:94%;padding:0}
+                            }
+                            @media only screen and (max-width:1280.98px) and (min-width:1024px), 
+                                    only screen and (max-width:1600.98px) and (min-width:1281px), 
+                                    only screen and (min-width:1601px){
+                                .head-nav-title{font-size:48px}
+                            }
+                            @media only screen and (max-width:1023.98px) and (min-width:741px), 
+                                    only screen and (max-width:1280.98px) and (min-width:1024px), 
+                                    only screen and (max-width:1600.98px) and (min-width:1281px), 
+                                    only screen and (min-width:1601px){
+                                .top_select_filter{display:-webkit-box;display:-webkit-flex;display:flex}
+                                .top_select_filter select.with-marker{margin:0 0 0 0;width:100%;height:63px}
+                                .top_select_filter select{height:63px;margin-bottom:0}
+                                .custom-find{margin-left:8px;width:10%}
+                                .head-nav-title{letter-spacing:normal;line-height:30px;margin-bottom:20px}
+                                .head-nav-subtitle{color:#fff;display:block;font-size:21px;font-weight:300;letter-spacing:0.02em;line-height:25px;margin-bottom:32px}
+                            }
+                            @media only screen and (max-width:1023.98px) and (min-width:741px){
+                                .head-nav-title{font-size:30px;line-height:30px;margin-bottom:5px}
+                                img[data-sizes="auto"].lazyloaded{height:360px}
+                            }
+                            @media only screen and (max-width:740.98px) and (min-width:421px){
+                                .top_select_filter select{margin-bottom:0}
+                                .cutom-find-btn{padding:14px;line-height:normal;height:auto}    
+                                #default_message_overlay_make, #default_message_overlay_model{padding-top:0;padding-left:0;left:12px;top:12px}
+                                #default_message_overlay_year{padding-top:0;padding-left:0;left:12px;top:12px}
+                                .top_select_filter .select-vehicle-col{margin-left:0;margin-bottom:8px}
+                                .select-vehicle-col i.down{top:15px}    
+                                img[data-sizes="auto"].lazyloaded{height:520px}
+                            }
+                            @media only screen and (max-width:480px){
+                                .banner  .caption{
+                                    width:100%;position:absolute;top:55%;padding:0 5%;
+                                    margin:0 auto;-ms-transform:translate(0, -50%);
+                                    -webkit-transform:translate(0, -50%);transform:translate(0, -50%)
+                                }
+                            }
+                            @media only screen and (max-width:420.98px), only screen and (max-width:740.98px) and (min-width:421px){
+                                .cutom-find-btn{padding:14px;line-height:normal;height:auto}
+                                #default_message_overlay_make, #default_message_overlay_model{padding-top:0;padding-left:0;left:12px;top:12px}
+                                #default_message_overlay_year{padding-top:0;padding-left:0;left:12px;top:12px}
+                                .top_select_filter .select-vehicle-col{margin-left:0;margin-bottom:8px}
+                                .select-vehicle-col i.down{top:15px}
+                            }
+                            @media (max-width:575px){
+                                .container.img-midd-sec .col-sm-3{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;padding-right:10px}
+                                .jdgm-verified-badge{ width:100%}
+                                .img-midd-sec .jdgm-verified-badge img{ margin-bottom:0}
+                            }
+                            @media only screen and (max-width:420.98px){
+                                img[data-sizes="auto"].lazyloaded{height:520px}
+                            }
+                            @media screen and (max-width:740px) {
+                                span.selectyear, span.selectmake, span.selectmodel {height: 50px;}
+                                .scrollableList {z-index: 1111;}
+                                .scrollableList ul {height:200px;}
+                            }
+                        </style>
+                    </div>
+                    <!-- end serch-container tag -->
+                    <div id="starthere">
+                        <p>Start here!</p>
+                        <img src="https://drive.google.com/uc?id=1C0omyCj1WKPLVKyxqCrudUselR6-_KQs">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- end image section tag -->
+    <!-- start quality section tag-->
+    <div id="shopify-section-1489125942243" class="shopify-section featured-promotions-section">
+        <div class="section-separator section-separator-1537956845471 section-separator-margin-top " style="background: #f6f6f6;"> 
+            <div class="separator-heading-line bottom line-solid"> 
+                <h1 class="h1">
+                    <span>Quality Selection of HID &amp; LED Headlight Bulbs</span>
+                </h1> 
+                <div class="separator-sub-line sub-line-bt"></div>
+            </div>
+        </div>
+        <div class="container img-midd-sec"> 
+            <div class="badge-icon"> 
+                <a href="javascript:void();">
+                    <picture> 
+                        <source media="(min-width: 650px)" srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/shutterstock_300x.jpg?v=4495986887765605555"> 
+                        <source media="(min-width: 465px)" srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/shutterstock_100x.jpg?v=4495986887765605555"> 
+                        <img alt="Top 3 Banner" src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/shutterstock_100x.jpg?v=4495986887765605555">
+                    </picture>
+                </a>
+            </div> 
+            <div class="badge-icon"> 
+                <div class="judgme-badge">
+                    <div style="clear:both"></div>
+                    <div style="text-align: center"> 
+                        <a class="jdgm-verified-count-badget" href="javascript:void(0)" data-from-snippet="false"> 
+                            <div class="jdgm-widget jdgm-verified-badge"> 
+                                <style>
+                                    .jdgm-verified-badge{display: none}
+                                </style> 
+                                <div class="jdgm-verified-badge__wrapper"> 
+                                    <img src="https://s3.amazonaws.com/me.judge.public-static-assets/general/verified-badge/jy-CRegPvRPDUDhlkWwv8g.png"> 
+                                    <div class="jdgm-verified-badge__total jdgm-badge-text jdgm--last-level">2416</div>
+                                    <div class="jdgm-verified-badge__text jdgm-badge-text jdgm--last-level">Verified Reviews</div> 
+                                    <div class="jdgm-verified-badge__stars jdgm--last-level">
+                                        <span class="jdgm-star jdgm--on"></span>
+                                        <span class="jdgm-star jdgm--on"></span>
+                                        <span class="jdgm-star jdgm--on"></span>
+                                        <span class="jdgm-star jdgm--on"></span>
+                                        <span class="jdgm-star jdgm--on"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+            <div class="badge-icon"> 
+                <a href="javascript:void();">
+                    <picture> 
+                        <source media="(min-width: 650px)" srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/shutterstock_1_300x.jpg?v=274122819459517774"> 
+                        <source media="(min-width: 465px)" srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/shutterstock_1_100x.jpg?v=274122819459517774"> 
+                        <img alt="Top 3 Banner" src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/shutterstock_1_100x.jpg?v=274122819459517774">
+                    </picture>
+                </a>
+            </div> 
+            <div class="badge-icon"> 
+                <a href="javascript:void();">
+                    <picture> 
+                        <source media="(min-width: 650px)" srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/shutterstock_2_300x.jpg?v=14978613607024208584"> 
+                        <source media="(min-width: 465px)" srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/shutterstock_2_100x.jpg?v=14978613607024208584"> 
+                        <img alt="Top 3 Banner" src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/shutterstock_2_100x.jpg?v=14978613607024208584">
+                    </picture>
+                </a>
+            </div>
+        </div>
+        <div class="featured-promotions container full-width--false"> 
+            <div class="js-featured-promotions promo-per-row-4 clearfix" data-promo-animation="fadeIn">
+                <figure class="feature-section section-1 promo-1 title-overlay-true promo-animation--true animated fadeIn"> 
+                    <div class="feature-inner feature-style--square ">
+                        <div class="image-element__wrap" style=" "> 
+                            <img alt="HID Xenon Headlight conversion kits" 
+                                data-src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1600x.jpg?v=1579137595" 
+                                data-sizes="auto" 
+                                data-srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_5000x.jpg?v=1579137595 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_4500x.jpg?v=1579137595 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_4000x.jpg?v=1579137595 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_3500x.jpg?v=1579137595 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_3000x.jpg?v=1579137595 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_2500x.jpg?v=1579137595 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_2000x.jpg?v=1579137595 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1800x.jpg?v=1579137595 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1600x.jpg?v=1579137595 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1400x.jpg?v=1579137595 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1200x.jpg?v=1579137595 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1000x.jpg?v=1579137595 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_800x.jpg?v=1579137595 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_600x.jpg?v=1579137595 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_400x.jpg?v=1579137595 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_200x.jpg?v=1579137595 200w" 
+                                height="1024" 
+                                width="1024" 
+                                style="" 
+                                class="transition--appear lazyautosizes lazyloaded" 
+                                sizes="200px" 
+                                srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_5000x.jpg?v=1579137595 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_4500x.jpg?v=1579137595 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_4000x.jpg?v=1579137595 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_3500x.jpg?v=1579137595 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_3000x.jpg?v=1579137595 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_2500x.jpg?v=1579137595 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_2000x.jpg?v=1579137595 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1800x.jpg?v=1579137595 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1600x.jpg?v=1579137595 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1400x.jpg?v=1579137595 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1200x.jpg?v=1579137595 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1000x.jpg?v=1579137595 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_800x.jpg?v=1579137595 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_600x.jpg?v=1579137595 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_400x.jpg?v=1579137595 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_200x.jpg?v=1579137595 200w" 
+                                src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_1600x.jpg?v=1579137595"
+                            >
+                        </div>
+                        <noscript> 
+                            <img src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/HID-xenon-headlight-conversion-kit-frontpage-block_2000x.jpg?v=1579137595" 
+                                alt="HID Xenon Headlight conversion kits" 
+                                class=""
+                            >
+                        </noscript>
+                        <figcaption class="feature-overlay"> 
+                            <a href="/collections/hid-conversion-kits" class="link-promo"></a> 
+                            <div class="feature-wrap">
+                                <h2 class="title">HID Conversion Kits</h2>
+                                <div class="feature-details">
+                                    <div class="button">shop now</div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+                <figure class="feature-section section-2 promo-2 title-overlay-true promo-animation--true animated fadeIn"> 
+                    <div class="feature-inner feature-style--square ">
+                        <div class="image-element__wrap" style=" "> 
+                            <img alt="led headlight kit collection box image" 
+                                data-src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1600x.jpg?v=1578694391" 
+                                data-sizes="auto" 
+                                data-srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_5000x.jpg?v=1578694391 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_4500x.jpg?v=1578694391 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_4000x.jpg?v=1578694391 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_3500x.jpg?v=1578694391 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_3000x.jpg?v=1578694391 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_2500x.jpg?v=1578694391 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_2000x.jpg?v=1578694391 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1800x.jpg?v=1578694391 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1600x.jpg?v=1578694391 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1400x.jpg?v=1578694391 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1200x.jpg?v=1578694391 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1000x.jpg?v=1578694391 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_800x.jpg?v=1578694391 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_600x.jpg?v=1578694391 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_400x.jpg?v=1578694391 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_200x.jpg?v=1578694391 200w" 
+                                height="187" 
+                                width="116" 
+                                style="" 
+                                class="transition--appear lazyautosizes lazyloaded" 
+                                sizes="124px" 
+                                srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_5000x.jpg?v=1578694391 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_4500x.jpg?v=1578694391 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_4000x.jpg?v=1578694391 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_3500x.jpg?v=1578694391 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_3000x.jpg?v=1578694391 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_2500x.jpg?v=1578694391 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_2000x.jpg?v=1578694391 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1800x.jpg?v=1578694391 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1600x.jpg?v=1578694391 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1400x.jpg?v=1578694391 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1200x.jpg?v=1578694391 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1000x.jpg?v=1578694391 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_800x.jpg?v=1578694391 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_600x.jpg?v=1578694391 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_400x.jpg?v=1578694391 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_200x.jpg?v=1578694391 200w" 
+                                src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_1600x.jpg?v=1578694391"
+                            >
+                        </div>
+                        <noscript> 
+                            <img src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/led-headlight-kit-front-page-box-image-288x155_2000x.jpg?v=1578694391" 
+                                alt="led headlight kit collection box image" 
+                                class=""
+                            >
+                        </noscript>
+                        <figcaption class="feature-overlay"> 
+                            <a href="/collections/led-headlight-kits" class="link-promo"></a> 
+                            <div class="feature-wrap">
+                                <h2 class="title">LED Headlight Kits</h2>
+                                <div class="feature-details reveal-details" style="display: none;">
+                                    <div class="button">shop now</div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+                <figure class="feature-section section-3 promo-3 title-overlay-true promo-animation--true animated fadeIn"> 
+                    <div class="feature-inner feature-style--square ">
+                        <div class="image-element__wrap" style=" "> 
+                            <img alt="factory hid bulbs collection block" 
+                                data-src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1600x.jpg?v=1578694447" 
+                                data-sizes="auto" 
+                                data-srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_5000x.jpg?v=1578694447 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_4500x.jpg?v=1578694447 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_4000x.jpg?v=1578694447 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_3500x.jpg?v=1578694447 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_3000x.jpg?v=1578694447 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_2500x.jpg?v=1578694447 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_2000x.jpg?v=1578694447 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1800x.jpg?v=1578694447 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1600x.jpg?v=1578694447 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1400x.jpg?v=1578694447 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1200x.jpg?v=1578694447 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1000x.jpg?v=1578694447 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_800x.jpg?v=1578694447 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_600x.jpg?v=1578694447 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_400x.jpg?v=1578694447 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_200x.jpg?v=1578694447 200w" 
+                                height="188" 
+                                width="188" 
+                                style="" 
+                                class="transition--appear lazyautosizes lazyloaded" 
+                                sizes="200px"
+                                srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_5000x.jpg?v=1578694447 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_4500x.jpg?v=1578694447 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_4000x.jpg?v=1578694447 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_3500x.jpg?v=1578694447 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_3000x.jpg?v=1578694447 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_2500x.jpg?v=1578694447 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_2000x.jpg?v=1578694447 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1800x.jpg?v=1578694447 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1600x.jpg?v=1578694447 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1400x.jpg?v=1578694447 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1200x.jpg?v=1578694447 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1000x.jpg?v=1578694447 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_800x.jpg?v=1578694447 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_600x.jpg?v=1578694447 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_400x.jpg?v=1578694447 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_200x.jpg?v=1578694447 200w" 
+                                src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_1600x.jpg?v=1578694447"
+                            >
+                        </div>
+                        <noscript> 
+                            <img src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/factory-hid-bulbs-front-page-box_2000x.jpg?v=1578694447" 
+                                alt="factory hid bulbs collection block" 
+                                class=""
+                            >
+                        </noscript>
+                        <figcaption class="feature-overlay"> 
+                            <a href="/collections/factory-hid-bulbs" class="link-promo"></a> 
+                            <div class="feature-wrap">
+                                <h2 class="title">Factory HID Bulbs</h2>
+                                <div class="feature-details reveal-details" style="display: none;">
+                                    <div class="button">shop now</div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+                <figure class="feature-section section-4 promo-4 title-overlay-true promo-animation--true animated fadeIn"> 
+                    <div class="feature-inner feature-style--square ">
+                        <div class="image-element__wrap" style=" "> 
+                            <img alt="miniature LED bulb header image" 
+                                data-src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1600x.jpg?v=1579137745" 
+                                data-sizes="auto" 
+                                data-srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_5000x.jpg?v=1579137745 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_4500x.jpg?v=1579137745 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_4000x.jpg?v=1579137745 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_3500x.jpg?v=1579137745 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_3000x.jpg?v=1579137745 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_2500x.jpg?v=1579137745 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_2000x.jpg?v=1579137745 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1800x.jpg?v=1579137745 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1600x.jpg?v=1579137745 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1400x.jpg?v=1579137745 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1200x.jpg?v=1579137745 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1000x.jpg?v=1579137745 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_800x.jpg?v=1579137745 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_600x.jpg?v=1579137745 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_400x.jpg?v=1579137745 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_200x.jpg?v=1579137745 200w" 
+                                height="2000" 
+                                width="2000" 
+                                style="" 
+                                class="transition--appear lazyautosizes lazyloaded" 
+                                sizes="200px" 
+                                srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_5000x.jpg?v=1579137745 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_4500x.jpg?v=1579137745 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_4000x.jpg?v=1579137745 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_3500x.jpg?v=1579137745 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_3000x.jpg?v=1579137745 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_2500x.jpg?v=1579137745 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_2000x.jpg?v=1579137745 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1800x.jpg?v=1579137745 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1600x.jpg?v=1579137745 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1400x.jpg?v=1579137745 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1200x.jpg?v=1579137745 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1000x.jpg?v=1579137745 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_800x.jpg?v=1579137745 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_600x.jpg?v=1579137745 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_400x.jpg?v=1579137745 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_200x.jpg?v=1579137745 200w" 
+                                src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_1600x.jpg?v=1579137745"
+                            >
+                        </div>
+                        <noscript> 
+                            <img src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/minature-interior-led-lights-front-block_2000x.jpg?v=1579137745" 
+                                alt="miniature LED bulb header image" 
+                                class=""
+                            >
+                        </noscript>
+                        <figcaption class="feature-overlay"> 
+                            <a href="/collections/led-miniature-bulbs" class="link-promo"></a> 
+                            <div class="feature-wrap">
+                                <h2 class="title">Led Miniature Bulbs</h2>
+                                <div class="feature-details reveal-details" style="display: none;">
+                                    <div class="button">shop now</div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+                <figure class="feature-section section-5 promo-5 title-overlay-true promo-animation--true animated fadeIn"> 
+                    <div class="feature-inner feature-style--square ">
+                        <div class="image-element__wrap" style=" "> 
+                            <img alt="hid accessories collection block image" 
+                                data-src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1600x.jpg?v=1578694593" 
+                                data-sizes="auto" 
+                                data-srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_5000x.jpg?v=1578694593 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_4500x.jpg?v=1578694593 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_4000x.jpg?v=1578694593 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_3500x.jpg?v=1578694593 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_3000x.jpg?v=1578694593 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_2500x.jpg?v=1578694593 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_2000x.jpg?v=1578694593 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1800x.jpg?v=1578694593 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1600x.jpg?v=1578694593 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1400x.jpg?v=1578694593 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1200x.jpg?v=1578694593 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1000x.jpg?v=1578694593 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_800x.jpg?v=1578694593 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_600x.jpg?v=1578694593 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_400x.jpg?v=1578694593 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_200x.jpg?v=1578694593 200w" 
+                                height="188" 
+                                width="188" 
+                                style="" 
+                                class="transition--appear lazyautosizes lazyloaded" 
+                                sizes="200px" 
+                                srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_5000x.jpg?v=1578694593 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_4500x.jpg?v=1578694593 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_4000x.jpg?v=1578694593 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_3500x.jpg?v=1578694593 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_3000x.jpg?v=1578694593 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_2500x.jpg?v=1578694593 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_2000x.jpg?v=1578694593 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1800x.jpg?v=1578694593 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1600x.jpg?v=1578694593 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1400x.jpg?v=1578694593 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1200x.jpg?v=1578694593 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1000x.jpg?v=1578694593 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_800x.jpg?v=1578694593 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_600x.jpg?v=1578694593 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_400x.jpg?v=1578694593 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_200x.jpg?v=1578694593 200w" 
+                                src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_1600x.jpg?v=1578694593"
+                            >
+                        </div>
+                        <noscript> 
+                            <img src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/gold-relay-homepage-block_2000x.jpg?v=1578694593" 
+                                alt="hid accessories collection block image" 
+                                class=""
+                            >
+                        </noscript>
+                        <figcaption class="feature-overlay"> 
+                            <a href="/collections/relay" class="link-promo"></a> 
+                            <div class="feature-wrap">
+                                <h2 class="title">HID Accessories</h2>
+                                <div class="feature-details">
+                                    <div class="button">shop now</div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+                <figure class="feature-section section-6 promo-6 title-overlay-true promo-animation--true animated fadeIn"> 
+                    <div class="feature-inner feature-style--square ">
+                        <div class="image-element__wrap" style=" "> 
+                            <img alt="LED accessories header image" 
+                                data-src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1600x.jpg?v=1578693786" 
+                                data-sizes="auto" 
+                                data-srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_5000x.jpg?v=1578693786 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_4500x.jpg?v=1578693786 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_4000x.jpg?v=1578693786 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_3500x.jpg?v=1578693786 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_3000x.jpg?v=1578693786 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_2500x.jpg?v=1578693786 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_2000x.jpg?v=1578693786 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1800x.jpg?v=1578693786 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1600x.jpg?v=1578693786 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1400x.jpg?v=1578693786 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1200x.jpg?v=1578693786 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1000x.jpg?v=1578693786 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_800x.jpg?v=1578693786 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_600x.jpg?v=1578693786 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_400x.jpg?v=1578693786 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_200x.jpg?v=1578693786 200w" 
+                                height="600" 
+                                width="600" 
+                                style="" 
+                                class="transition--appear lazyautosizes lazyloaded" 
+                                sizes="200px" 
+                                srcset="//cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_5000x.jpg?v=1578693786 5000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_4500x.jpg?v=1578693786 4500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_4000x.jpg?v=1578693786 4000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_3500x.jpg?v=1578693786 3500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_3000x.jpg?v=1578693786 3000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_2500x.jpg?v=1578693786 2500w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_2000x.jpg?v=1578693786 2000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1800x.jpg?v=1578693786 1800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1600x.jpg?v=1578693786 1600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1400x.jpg?v=1578693786 1400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1200x.jpg?v=1578693786 1200w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1000x.jpg?v=1578693786 1000w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_800x.jpg?v=1578693786 800w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_600x.jpg?v=1578693786 600w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_400x.jpg?v=1578693786 400w,
+                                    //cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_200x.jpg?v=1578693786 200w" 
+                                src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_1600x.jpg?v=1578693786"
+                            >
+                        </div>
+                        <noscript> 
+                            <img src="//cdn.shopify.com/s/files/1/0249/0207/4421/files/Decoder_2000x.jpg?v=1578693786" 
+                                alt="LED accessories header image" 
+                                class=""
+                            >
+                        </noscript>
+                        <figcaption class="feature-overlay"> 
+                            <a href="/collections/led-decoder" class="link-promo"></a> 
+                            <div class="feature-wrap">
+                                <h2 class="title">LED Accessories</h2>
+                                <div class="feature-details">
+                                    <div class="button">shop now</div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- end quality section tag -->
+    <!-- start description section tag -->
+    <div id="shopify-section-1591335773326" class="shopify-section">
+        <section class="hid-vs-led-section"> 
+            <div class="container">
+                <div class="title-container border-bottom"> 
+                    <h1>LED Headlights  Vs HID Headlights</h1>
+                </div> 
+                <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;" class=""> 
+                    <tbody> 
+                        <tr> 
+                            <th class="empty"></th> 
+                            <th class="col-1">LED Headlights</th> 
+                            <th class="col-2">HID Headlights</th>
+                        </tr> 
+                        <tr> 
+                            <td class="col-3" style="width:25%;">Energy efficiency</td> 
+                            <td class="col-3" style="text-align:center;">High</td> 
+                            <td class="col-3" style="text-align:center;">Average</td>
+                        </tr> 
+                        <tr> 
+                            <td class="col-4" style="width:25%;">Heat emission</td> 
+                            <td class="col-4" style="text-align:center;">Low</td> 
+                            <td class="col-4" style="text-align:center;">High</td>
+                        </tr> 
+                        <tr> 
+                            <td class="col-5" style="width:25%;">Lifespan</td> 
+                            <td class="col-5" style="text-align:center;">50,000 hours</td> 
+                            <td class="col-5" style="text-align:center;">5000 hours</td>
+                        </tr> 
+                        <tr> 
+                            <td class="col-6" style="width:25%;">Power Draw</td> 
+                            <td class="col-6" style="text-align:center;">Low</td> 
+                            <td class="col-6" style="text-align:center;">Average</td>
+                        </tr> 
+                        <tr> 
+                            <td class="col-7" style="width:25%;">Warm Up Time</td> 
+                            <td class="col-7" style="text-align:center;">Instant</td> 
+                            <td class="col-7" style="text-align:center;">within Seconds</td>
+                        </tr> 
+                        <tr> 
+                            <td class="col-8" style="width:25%;">Installation Time</td> 
+                            <td class="col-8" style="text-align:center;">30 mins</td> 
+                            <td class="col-8" style="text-align:center;">60 mins</td>
+                        </tr> 
+                        <tr> 
+                            <td class="col-9" style="width:25%;">Durability</td> 
+                            <td class="col-9" style="text-align:center;">High</td> 
+                            <td class="col-9" style="text-align:center;">Average</td>
+                        </tr>
+                    </tbody>
+                </table> 
+                <div class="odd-even-box"> 
+                    <div class="box-10 boxes-show"> 
+                        <h2></h2> 
+                        <p></p>
+                        <div class="rowboxes">
+                            <p>Are you pimping your ride and in need of brighter headlights?</p>
+                            <p>Perhaps your eyesight is failing and you get a little nervous driving in the dark?</p>
+                            <p>Maybe you just have old headlights that could use an overhaul.</p>
+                            <p>If so, you should consider upgrading your existing halogen headlights with HID headlights or LED headlights.</p>
+                            <p>Why?</p>
+                            <ul>
+                                <li>They look costly but they are remarkably affordable</li>
+                                <li>They produce a brighter, whiter light so you can see more clearly in gloomy conditions</li>
+                                <li>Both types of headlights are super-simple to fit and install</li>
+                            </ul>
+                            <p>Developments in technology mean you can upgrade your car or motorbike headlights with brighter lights for nighttime driving. These lights also make your ride look way cooler.</p>
+                            <p>If you thought you’d never be able to afford to uprate your headlights, think again. HID headlights and LED headlights give your ride showroom style but at a fraction the cost of dealership lights. Those things are expensive.</p>
+                            <p>LEDs and HIDs might look complicated but they couldn’t be easier to fit.</p>
+                            <p></p>
+                            <p>You just have to know what goes where by following some instructions and you’re on your way.</p>
+                            <p>Typical car halogen headlights can become dull and need replacing regularly. But, HID and LED headlights are brighter, last longer, and also draw down less power than traditional alternatives.</p>
+                        </div>
+                        <div class="rowboxes">
+                            <h2>What are HID Headlights?</h2>
+                            <p>You might also be wondering where HID lights fit in and what’s so great about them.</p>
+                            <p>HID stands for high-intensity discharge.</p>
+                            <p>These lights work by sending an electrical current through the ballast of a light bulb. The electricity then flows into a glass chamber containing gas and metallic salts. The electricity reacts with the gas and creates a spark. The heat from this spark vaporizes the metallic salts. This activity produces a swirling mass of plasma which creates brilliant light as it moves.</p>
+                            <p>HID lamps are remarkably bright. They’re typically used for illuminating large expanses of space with bright light in places like:</p>
+                            <p></p>
+                            <ul>
+                                <li>Football stadiums</li>
+                                <li>Theaters</li>
+                                <li>Parking lots</li>
+                                <li>Pathways</li>
+                                <li>Gymnasiums</li>
+                                <li>Warehouses</li>
+                                <li>Indoor gardening</li> 
+                                <p>Why, then, have HIDs been co-opted for such a different use case with car headlights?</p>
+                            </ul>
+                        </div>
+                        <div class="rowboxes">
+                            <h2>Why Use HID Headlights?</h2>
+                            <p>In brief, HID headlights:</p>
+                            <ul>
+                                <li>Add wow-factor to your car or motorbike</li>
+                                <li>Make you feel safer driving in the dark</li>
+                                <li>Draw down less power than traditional halogen bulbs</li>
+                                <li>Save you money over time</li>
+                            </ul>
+                            <p>Car headlights were once made from tungsten or halogen bulbs. These bulbs contain filaments.</p>
+                            <p>HID bulbs, by contrast, don’t contain filaments. Instead, light is produced by an electric arc, tungsten electrodes, and the highly-charged xenon gas they contain – HIDs are sometimes called xenon headlights. This noble gas allows for a bright bulb requiring less voltage than tungsten or halogen bulbs.</p>
+                            <p>Many prefer to use HID headlights so they can see further in the dark at night. HID headlights put out three times as much light as traditional alternatives. The light created is whiter. This makes driving at night easier as the headlights reflect street lights so much more effectively.</p>
+                            <p>Drivers also choose HID lights in an attempt to reduce glare for oncoming traffic. The beam from an HID light is more focused than a halogen light. For considerate drivers, HIDs are a must.</p>
+                            <p>Initially, HID headlights were just used for low-beam action. Today, technology allows a driver to adjust the positioning of the light beam from HID headlights.</p>
+                            <p>Rolling with HID headlights is more attractive to some drivers because:</p>
+                            <ul>
+                                <li>They are safer than halogen lights</li>
+                                <li>They improve visibility at night
+                                    They last longer
+                                </li>
+                            </ul>
+                        </div>
+                        <p></p>
+                    </div> 
+                    <div class="box-11 boxes-show"> 
+                        <h2></h2> 
+                        <p></p>
+                        <div class="secondrowbox">
+                            <h2>What are LED Headlights?</h2>
+                            <p>Ok, so what are LEDs?</p>
+                            <p>And why would you want them?</p>
+                            <p>Well, just like HID lights, LEDs are brighter and whiter than incandescent bulbs but also highly energy-efficient.</p>
+                            <p>LED stands for light-emitting diode, by the way.</p>
+                            <p>LEDs were initially used in the 60s for calculator displays and consoles. LEDs today have largely replaced incandescent bulbs in the home due to energy-efficiency and low power consumption. Many homes and commercial premises save a fortune by switching to LEDs.</p>
+                            <p>Like HID bulbs, LED bulbs are much brighter and whiter than halogen bulbs. They also draw down relatively little power.</p>
+                            <p>If you replace your halogen headlight with LED headlights, you’ll notice a difference in brightness and visibility when you drive in the dark.</p>
+                            <p>Headlights are one of the most effective applications of LED technology.</p>
+                        </div>
+                        <div class="secondrowbox">
+                            <h2>led headlight conversion kit</h2>
+                            <p>If you’re switching to LED, congratulations on making that move. You’ll use less power and get brighter headlights at the same time.</p>
+                            <p>Our LED headlight conversion kits are 100% plug-and-play so anyone can fit them.</p>
+                            <p>Some of our conversion kits also come with a lifetime guarantee so you’ll never have to worry about getting stopped with a bulb out.</p>
+                            <p>LED headlight conversion kits also give you the option of purchasing a decoder. This will prevent any annoying error signals from popping up. We highly recommend investing in the decoder.</p>
+                        </div>
+                        <p></p>
+                    </div> 
+                    <div class="box-12 boxes-show"> 
+                        <h2></h2> 
+                        <p></p>
+                        <div class="thirdrow-box">
+                            <h2>LED Headlights vs HID Headlights</h2>
+                            <p>So…</p>
+                            <p>Which is the best choice, LED or HID headlights?</p>
+                            <p>They are both very simple to install. You literally swap out the old bulb and plug in the new LED or HID bulb. They are both slightly different, but it’s easy once you know how.</p> 
+                            <p>LED headlights light up instantly whereas HID headlights tend to need a few seconds to warm up.</p>
+                            <p>Both LED and HID headlights produce brilliant white light so they are equally effective for driving in the dark.</p>
+                            ,p&gt;LED headlights are more energy-efficient than HID headlights and they draw down less power. LEDs are also shock-proof and last considerably longer.
+                            <p></p>
+                            <p>You really can’t go wrong either way but if we had to choose we’d go with LED Headlights for the above reasons.</p>
+                        </div>
+                        <div class="thirdrow-box">
+                            <h2>How Can You Fit LED or HID lights?</h2>
+                            <p>Have you ever changed a lightbulb in your home?</p>
+                            <p>If you answered yes, you can fit an LED or HID headlight.</p>
+                            <p>Upgrading to LED headlights or HID headlights is so easy anyone with a pair of eyes and a pair of hands can do it…</p>
+                            <p>All you need is to follow the simple instructions that come with an HID conversion kit or LED headlight kit. It’ll take 20 to 30 minutes, max.</p>
+                            <p>You’ll be cruising along with your new lights in no time, then.</p>
+                            <h4>Why Do I Need an HID Conversion Kit?</h4>
+                            <p>As the traditional halogen bulb is set up slightly differently, you’ll need to use a conversion kit.</p>
+                            <p>It sounds complicated, but it’s not.</p>
+                            <p>A standard HID headlight conversion kit typically consists of a ballast and two HID bulbs. The ballast is a device that regulates the electrical charge creating the electrical arc – this is what creates the bright light. We give you everything you need to get your new LED or HID headlights installed.</p>
+                            <p>You also have the option of a relay/anti-flicker harness or error warning cancellers. These prevent your lights from flickering and interfering with the connections of your dashboard lights.</p>
+                            <p>This may sound a bit technical and complicated but it really isn’t. It is just a case of plugging the right parts together. This is all explained for you with simple, easy-to-follow instructions.</p>
+                        </div>
+                        <div class="thirdrow-box">
+                            <h2>What’s The Best Ballast?</h2>
+                            <p>The ballast is the base to which you attach the bulb. This is what determines the brightness of your bulb. Ballasts typically come in 35-watt (most popular) or 55-watt. These bulbs are significantly brighter.</p> 
+                            <p>To swap out your old halogen bulb and replace it with an HID bulb, you just need to remove the old bulb. After that, plug in the ballast which is connected to the bulb. But, don’t worry about that just yet. When you see the instructions, you’ll see how easy it is.</p>
+                        </div>
+                        <div class="thirdrow-box">
+                            <h2>Verdict: HID Headlights or LED Headlights?</h2>
+                            <p>Rules vary between states. Some states forbid the use of HID headlights due to the glare they cause other drivers.</p> 
+                            <p>You need to check with the regulations for your state to assess where you stand legally.</p>
+                            <p>The design of your headlight will also influence whether you go for HID or LED. The beam pattern will depend on the composition and shape of your headlight.</p>
+                            <p>Ultimately, LED headlights are more economical, last longer, and illuminate instantly. LED lights are the connoisseur’s choice but don’t rule out HIDs.</p>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- end description section tag -->
+@endsection

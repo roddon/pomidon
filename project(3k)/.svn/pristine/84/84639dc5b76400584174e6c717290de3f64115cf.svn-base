@@ -1,0 +1,41 @@
+
+ 
+<?php $__env->startSection('content'); ?>
+<h2 style="margin-top: 12px;" class="text-center">Edit Product</a></h2>
+<br>
+ 
+<form action="<?php echo e(route('products.update', $product_info->id)); ?>" method="POST" name="update_product">
+<?php echo e(csrf_field()); ?>
+
+<?php echo method_field('PATCH'); ?>
+ 
+<div class="row">
+    <div class="col-md-12">
+        <div class="form-group">
+            <strong>Title</strong>
+            <input type="text" name="title" class="form-control" placeholder="Enter Title" value="<?php echo e($product_info->title); ?>">
+            <span class="text-danger"><?php echo e($errors->first('title')); ?></span>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="form-group">
+            <strong>Product Code</strong>
+            <input type="text" name="product_code" class="form-control" placeholder="Enter Product Code" value="<?php echo e($product_info->product_code); ?>">
+            <span class="text-danger"><?php echo e($errors->first('product_code')); ?></span>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="form-group">
+            <strong>Description</strong>
+            <textarea class="form-control" col="4" name="description" placeholder="Enter Description" ><?php echo e($product_info->description); ?></textarea>
+            <span class="text-danger"><?php echo e($errors->first('description')); ?></span>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+ 
+</form>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('product.layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\laravel Teamwork\resources\views/product/edit.blade.php ENDPATH**/ ?>

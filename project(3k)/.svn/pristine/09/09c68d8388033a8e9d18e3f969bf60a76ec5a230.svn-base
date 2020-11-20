@@ -1,0 +1,80 @@
+
+
+<?php $__env->startSection('content'); ?>
+    <div style="clear:both;"></div>
+    <a name="pagecontent" id="pagecontent"></a>
+    <div class="container main content"> 
+        <div class="sixteen columns page clearfix"> 
+            <h1 class="page_heading">2019 Acura ILX Automotive Lighting</h1> 
+            <div class="feature_divider"></div> 
+            <div id="searchresults"> 
+                <ul>
+                    <li class="search-result" data-position="10">
+                        <div class="product_name">2019 Acura ILX Exterior</div>
+                        <ol id="listitems9" class="search-results">
+                            <li data-position="9">
+                                <a href="/collections/types?q=921" title="2019 Acura ILX Back Up Light Bulb">Back Up Light Bulb</a>
+                                <span class="readmore">» 
+                                    <a href="/collections/types?q=921" title="2019 Acura ILX 921 Bulb">921</a>
+                                </span>
+                            </li>
+                            <li data-position="10">
+                                <a href="/collections/types?q=168" title="2019 Acura ILX License Plate Light Bulb">License Plate Light Bulb</a>
+                                <span class="readmore">» 
+                                    <a href="/collections/types?q=168" title="2019 Acura ILX 168 Bulb">168</a>
+                                </span>
+                            </li>
+                            <li data-position="11">
+                                <a href="/collections/types?q=168" title="2019 Acura ILX Side Marker Light Bulb Front">Side Marker Light Bulb Front</a>
+                                <span class="readmore">» 
+                                    <a href="/collections/types?q=168" title="2019 Acura ILX 168 Bulb">168</a>
+                                </span>
+                            </li>
+                            <li data-position="12">
+                                <a href="/collections/types?q=7440A" title="2019 Acura ILX Turn Signal Light Bulb Rear">Turn Signal Light Bulb Rear</a>
+                                <span class="readmore">» 
+                                    <a href="/collections/types?q=7440A" title="2019 Acura ILX 7440A Bulb">7440A</a>
+                                </span>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="search-result" data-position="11">
+                        <div class="product_name">2019 Acura ILX Forward</div>
+                        <ol id="listitems13" class="search-results">
+                            <li data-position="13">
+                                <a href="/collections/types?q=H11" title="2019 Acura ILX Fog Light Bulb Front">Fog Light Bulb Front</a>
+                                <span class="readmore">» 
+                                    <a href="/collections/types?q=H11" title="2019 Acura ILX H11 Bulb">H11</a>
+                                </span>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="search-result" data-position="12">
+                        <div class="product_name">2019 Acura ILX Interior</div>
+                        <ol id="listitems14" class="search-results">
+                            <li data-position="14">
+                                <a href="/collections/types?q=168" title="2019 Acura ILX Trunk Light Bulb">Trunk Light Bulb</a>
+                                <span class="readmore">» 
+                                    <a href="/collections/types?q=168" title="2019 Acura ILX 168 Bulb">168</a>
+                                </span>
+                            </li>
+                            <li data-position="15">
+                                <a href="/collections/types?q=168" title="2019 Acura ILX Trunk or Cargo Area Light">Trunk or Cargo Area Light</a>
+                                <span class="readmore">» 
+                                    <a href="/collections/types?q=168" title="2019 Acura ILX 168 Bulb">168</a>
+                                </span>
+                            </li>
+                            <li data-position="16">
+                                <a href="/collections/types?q=6615F" title="2019 Acura ILX Vanity Mirror Light Bulb">Vanity Mirror Light Bulb</a>
+                                <span class="readmore">» 
+                                    <a href="/collections/types?q=6615F" title="2019 Acura ILX 6615F Bulb">6615F</a>
+                                </span>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout.layoutContainSearch', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\VPN teamwork\resources\views/SearchResult.blade.php ENDPATH**/ ?>

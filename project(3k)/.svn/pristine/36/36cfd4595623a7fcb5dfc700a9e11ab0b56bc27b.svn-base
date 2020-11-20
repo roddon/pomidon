@@ -1,0 +1,46 @@
+
+   
+<?php $__env->startSection('content'); ?>
+  <a href="<?php echo e(route('products.create')); ?>" class="btn btn-success mb-2">Add</a>
+  <br>
+   <div class="row">
+        <div class="col-12">
+          
+          <table class="table table-bordered" id="laravel_crud">
+           <thead>
+              <tr>
+                 <th>Id</th>
+                 <th>Title</th>
+                 <th>Product Code</th>
+                 <th>Description</th>
+                 <th>Created at</th>
+                 <td colspan="2">Action</td>
+              </tr>
+           </thead>
+           <tbody>
+              <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+              <tr>
+                 <td><?php echo e($product->id); ?></td>
+                 <td><?php echo e($product->title); ?></td>
+                 <td><?php echo e($product->product_code); ?></td>
+                 <td><?php echo e($product->description); ?></td>
+                 <td><?php echo e(date('Y-m-d', strtotime($product->created_at))); ?></td>
+                 <td><a href="<?php echo e(route('products.edit',$product->id)); ?>" class="btn btn-primary">Edit</a></td>
+                 <td>
+                 <form action="<?php echo e(route('products.destroy', $product->id)); ?>" method="post">
+                  <?php echo e(csrf_field()); ?>
+
+                  <?php echo method_field('DELETE'); ?>
+                  <button class="btn btn-danger" type="submit">Delete</button>
+                </form>
+                </td>
+              </tr>
+              <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+           </tbody>
+          </table>
+          <?php echo $products->links(); ?>
+
+       </div> 
+   </div>
+ <?php $__env->stopSection(); ?>  
+<?php echo $__env->make('product.layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\laravel Teamwork\resources\views/product/list.blade.php ENDPATH**/ ?>
